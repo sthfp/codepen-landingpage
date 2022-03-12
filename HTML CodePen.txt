@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="wight"=device-widht, initial-scale=1.0">
+  <meta name="description" content="Uma economista em transição!"
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+        
+<body>
+  <header class="cabecalho">
+<div class="container">
+    <nav class="cabecalho-menu">
+     <ul>
+      <a class="cabecalho-menu-item" href="#quem-sou-eu">Quem sou eu</a>
+       <a class="cabecalho-menu-item" href="#educacao">Educação</a>
+       <a class="cabecalho-menu-item" href="#experiencia-profissional">Experiência Profissional</a>
+       <a class="cabecalho-menu-item" href="#contato">Contato</a>
+     </ul>
+    </nav>
+</div>
+  </header>
+<div class="container">
+<main class="conteudo">
+    <section class="conteudo-principal" id="quem-sou-eu">
+<div class="colordvaline">
+<div class="colordjaline">
+<div class="conteudo-principal-escrito">
+                                       <h1 class="conteudo-principal-escrito-titulo" style="color:#FFFFFF">Quem sou eu</h1>
+<div class="conteudo-secundario">
+<p class="conteudo-secundario-escrito" style="color:#FFFFFF">Olá, meu nome é Sthefany Pereira, tenho 26 anos e sou formada em Economia pela Universidade Estadual de Londrina. Atualmente trabalho há quase 6 anos em uma multinacional farmacêutica atuando em finanças e estou em busca de uma transição de carreira para atuar como Desenvolvedora e tenho estudado algumas linguagens de programação, que busquei demonstrar por aqui. Obrigada pelo seu tempo!</p>
+  <img class="conteudo-imagem1" src="https://lh3.googleusercontent.com/y9XiW-Ix9WJjCAd22GuRr2wRqUAt46KC_6ryOUGsd6hChuwvvJALUCnRmDtPiEuwgrzu5waK3sOzvvEIG_A4I4SxKyT7fq1AyX_0UBV-xdYZFuWq1DWH3US5IzAGkeimoY6E0PNY8B1mqlKHHCaPCDvNWSUO9eSdxl02qOro5_hBP55pOviad4dTHY8yn18CHhVYyTHhg_8phOrfeIUKKLK7hEn71fdGdIHxRATmXVoSiv7k7Jw2092c-8WcuwECvW6f5VQuNHtoj3o2xhVJ_Xy4dM7Yz8IWER8ZRXMlFQTBaI6Bj73bO35dPvVJW4GNdHNrXtqEuZzA-zoIQ7qYCrmQ3Hg74QtOpEdatR0FdmgSoHRBe9XPmNNqBhd676RF_FlpEm8gLeQ6cZ7yVp0HZ-oxaLoSR78twAs8E7xctWI3htm1P5gwvnVJ3H12vMJo-nqncq4F4gMioO-E8BgOGmx316tKvQEw71IWmhvuOK9Y3Yu9Zmz1iAffuqg_CHUK-7007mtLWOHjMWyWKD-1_C9VUuXttta_VLlmZn02hy2Quy_PoE4vJ81K8lalYxraDZ5CXW6b6XakLG-1qIm6w6ZrAzkmZB-Dzv5kLk58We8ZQbz0sYFOc4II70DiFiirP__EdwFncnlpk7Hm8gCEF_DFyXEUo2Lk2Jn_DoqBRMheE4YdU5TlFeyBFrJHNUV3jVgKxhbwsAjKB8ydip1KCvU=w904-h508-no?authuser=0" alt="Autoretrato Sthefany">
+  </div>
+</section>
+<section class="conteudo-principal" id="educacao">
+      <div class="conteudo-principal-escrito">
+       <h1 class="conteudo-principal-escrito-titulo">Educação</h1>
+<div class="slider">
+    <div class="slide">
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <div class="st first">
+            <p class="conteudo-secundario-escrito-logo" style="text-align: left;">Pós-Graduação em Engenharia de Software | 2022 - 2023</p>
+            <p class="conteudo-secundario-escrito-logo"><b>Universidade Estadual de Londrina</b></p>
+        </div>
+        <div class="st">
+            <p class="conteudo-secundario-escrito-logo">Bacharelado em Economia | 2014 - 2018</p>
+            <p class="conteudo-secundario-escrito-logo"><b>Universidade Estadual de Londrina</b></p>
+        </div>
+
+        <div class="nav-auto">
+            <div class="a-b1"></div>
+            <div class="a-b2"></div>
+        </div>
+    </div>
+
+    <div class="nav-m">
+        <label for="radio1" class="m-btn"></label>
+        <label for="radio2" class="m-btn"></label>
+
+    </div>
+</div>
+<script type="text/javascript">
+    var counter=1;
+    setInterval(function(){
+        document.getElementById('radio'+counter).checked=true;
+        counter++;
+        if(counter > 4){
+            counter=1;
+        }
+    },5000);
+</script>
+</section>
+                                                       
+    <section class="conteudo-principal" id="experiencia-profissional">
+<div class="container">
+       <h1 class="conteudo-principal-escrito-titulo">Experiência Profissional</h1>
+        <p class="conteudo-principal-escrito-subtitulo"><b>Novartis Biociências S.A.</b></p>
+<div class="accordion">
+    <div class="accordion-item" id="position1">
+        <a class="accordion-link" href="#position1">
+            Tax Analyst Jr. | nov. 2019 - now
+        </a>
+        <div class="answear">
+             <p>• Apuração de IRRF, INSS, ISS, PIS/COFINS/CSLL de pessoas jurídicas</p>
+             <p>• Apuração de IRRF, ISS, INSS e INSS Patronal para pessoa física</p>
+             <p>• Apuração de PIS, COFINS e ISS referente a contratos de câmbio</p>
+             <p>• Realização de acertos contábeis referente a restituição ou retenção de impostos</p>
+             <p>• Validação de códigos de serviço presentes nos pedidos de compra considerando a Lei Complementar 116</p>
+             <p>• Emissão de guias de pagamento através das prefeituras municipais para impostos e taxas municipais e SicalcWeb para impostos federais</p>
+             <p>• Entrega de obrigações acessórias (NFTS, DES, Rest, SPED REINF, DCTFWeb e DIRF)</p>
+             <p>• Elaboração de layout para emissão de NFTS em massa (Prefeitura de São Paulo)</p>
+             <p>• Elaboração de layout para emissão de NFTS em massa (Prefeitura de Embu das Artes)</p>
+             <p>• Elaboração de layout para emissão de declaração em txt da DIRF</p>
+             <p>• Acompanhamento das certidões municipais e federais</p>
+             <p>• Realização e gerenciamento de Conciliações Contábeis</p>
+             <p>• Realização de controles de auditoria e controles internos, garantindo que as documentações suporte estejam devidamente providenciadas e anexadas atendendo ao compliance devido a lei de Sarbanes-Oxley </p>
+             <p>• Atendimento de auditoria interna e externa</p>
+             <p>• Elaboração de Relatórios de Acertos Manuais (manual journal entries)</p>
+             <p>• Abertura de chamados e acompanhamento dos mesmos junto a equipe de IT (equipe Hyderabad e equipe Brasil)</p>
+             <p>• Manutenção e gerenciamento de cadastros de fornecedores, garantindo que as informações fiscais estejam corretas (cadastro de impostos e indicação de imunidade tributária, simples nacional, MEI e afins)</p>
+             <p>• Suporte às áreas de negócio sobre o processo de retenção de impostos</p>
+             <p>• Atendimento de alta demanda de contatos das áreas com relação a dúvidas nos processos de criação de PO pós implantação do TDF</p>
+             <p>• Alta demanda de contatos de fornecedores com relação a retenção na fonte</p>
+             <p>• Conhecimento nos sistemas SAP e JDE</p>
+        </div>
+    </div>
+</div>
+<div class="accordion">
+    <div class="accordion-item" id="position2">
+        <a class="accordion-link" href="#position2">
+            Invoice Processing Analyst Jr. | jun. 2018 - nov. 2019
+        </a>
+        <div class="answear">
+             <p>• Recepção de documentos fiscais via e-mail genérico com pedido de compra (dentro do escopo de compras), conferência e input desses documentos fiscais no sistema;</p>
+             <p>• Recepção de documentos fiscais via e-mail genérico sem pedido de compra (fora do escopo de compras, como pagamento de taxas, tributos, reembolsos, financiamento de veículo e etc), conferência e input desses documentos fiscais no sistema;</p>
+             <p>• Armazenamento dos documentos fiscais recebidos fisicamente através de Arquivo Morto de acordo com a política de retenção de dados aplicada pela empresa;</p>
+             <p>• Análise e validação dos documentos fiscais recebidos. Em caso de divergência, realizar o follow-up dos casos até resolução da pendência ou ponto que estava em desacordo com as normas da legislação ou não atendendo os requerimentos de informações básicas, como CNPJ do Tomador ou do Prestador, Valor, Data de Emissão e Assinatura (eletrônica ou manual);</p>
+             <p>• Processamento de documentos fiscais com pedido de compra referente a prestação de serviço ou aquisição de material não produtivo;</p>
+             <p>• Suporte às áreas de negócio que possuírem dúvidas com relação ao processo;</p>
+             <p>• Suporte à área de Contas a Pagar;</p>
+             <p>• Acompanhamento de processos pendentes e vencidos com impacto nos indicadores financeiros globais;</p>
+             <p>• Elaboração de relatórios mensais de faturas processadas por fornecedor e tipo de operação (venda de material ou prestação de serviço);</p>
+             <p>• Preparação de Manuais dos processos;</p>
+             <p>• Preparação de KPIs (Key Performance Indicator) e outros relatórios e indicadores da área;</p>
+             <p>• Provisão de valores através de relatório entregue à Contabilidade para lançamento contábil via sistema;</p>
+             <p>• Preparar Controles de Auditoria, mantendo sempre o compliance devido a lei Sarbanes-Oxley;</p>
+             <p>• Experiência com SAP nos módulos FI, CO e MM;</p>
+             <p>• Experiência com JDE.</p>
+        </div>
+    </div>
+</div>
+<div class="accordion">
+    <div class="accordion-item" id="position3">
+        <a class="accordion-link" href="#position3">
+            Invoice Processing Trainee | jul. 2016 - jun. 2018
+        </a>
+        <div class="answear">
+             <p>• Recepção de documentos fiscais via e-mail genérico com pedido de compra (dentro do escopo de compras), conferência e input desses documentos fiscais no sistema;</p>        
+             <p>• Recepção de documentos fiscais via e-mail genérico sem pedido de compra (fora do escopo de compras, como pagamento de taxas, tributos, reembolsos, financiamento de veículo e etc), conferência e input desses documentos fiscais no sistema;</p>        
+             <p>• Recepção de documentos fiscais via malote interno ou correio externo, conferência e input desses documentos fiscais no sistema;</p>        
+             <p>• Armazenamento dos documentos fiscais recebidos fisicamente através de Arquivo Morto de acordo com a política de retenção de dados aplicada pela empresa;</p>        
+             <p>• Análise e validação dos documentos fiscais recebidos. Em caso de divergência, realizar o follow-up dos casos até resolução da pendência ou ponto que estava em desacordo com as normas da legislação ou não atendendo os requerimentos de informações básicas, como CNPJ do Tomador ou do Prestador, Valor, Data de Emissão e Assinatura (eletrônica ou manual);</p>        
+             <p>• Processamento de documentos fiscais com pedido de compra referente a prestação de serviço ou aquisição de material não produtivo;</p>        
+             <p>• Suporte às áreas de negócio que possuírem dúvidas com relação ao processo;</p>        
+             <p>• Suporte à área de Contas a Pagar</p>        
+             <p>• Acompanhamento de processos pendentes e vencidos com impacto nos indicadores financeiros globais;</p>        
+             <p>• Elaboração de relatórios mensais de faturas processadas por fornecedor e tipo de operação (venda de material ou prestação de serviço);</p>        
+             <p>• Preparação de Manuais dos processos;</p>        
+             <p>• Experiência com SAP nos módulos FI, CO e MM;</p>        
+             <p>• Experiência com JDE.</p>        
+        </div>
+    </div>
+</div>
+        <p class="conteudo-principal-escrito-subtitulo"><b>brMalls</b></p>
+<div class="accordion">
+    <div class="accordion-item" id="position4">
+        <a class="accordion-link" href="#position4">
+            Audit Intern | apr. 2016 - jun. 2016
+        </a>
+        <div class="answear">
+            <p>
+                Execução diária de auditorias internas nas lojas, avaliando o desempenho dos indicadores de qualidade das lojas, vendas, extraindo relatórios de máquinas de cartão de crédito e reportando ao Shopping e à administradora.            </p>        
+        </div>
+    </div>
+</div>
+        <p class="conteudo-principal-escrito-subtitulo"><b>GT Group</b></p>
+<div class="accordion">
+    <div class="accordion-item" id="position5">
+        <a class="accordion-link" href="#position5">
+            Office Assistant | nov. 2014 - feb. 2016
+        </a>
+        <div class="answear">
+            <p>
+                Empresa de drop-shipping. As atividades envolviam o atendimento ao cliente via chat e e-mail. Telemarketing ativo. Manutenção de pedidos através de sistema web Magento. Solicitação de mercadorias diretamente com fornecedor. Registro de custos em sistema web based. Emissão de boletos, conferência e direcionamento ao banco. Manutenção de pedidos e entregas no pós venda.            </p>
+        </div>
+    </div>
+</div></div>             
+                                                        </section>
+<div class="conteudo-principal-escrito-contato">
+    <section class="conteudo-principal" id="contato">
+                                                    <h1 class="conteudo-principal-escrito-titulo">Contato</h1>
+      <div class="contactcontainer">
+        <div class="content">
+          <div class="left-side">
+            <div class="address details">
+              <div class="topic"><a href="https://www.linkedin.com/in/sthefany-pereira/">LinkedIn</a></div>
+              <div class="text-one"><a href="https://www.linkedin.com/in/sthefany-pereira/">sthefany-pereira</a></div>
+            </div>
+            <div class="phone details">
+              <div class="topic">WhatsApp</div>
+              <div class="text-one">+55 43 9923 5295</div>
+            </div>
+            <div class="email details">
+              <div class="topic">Email</div>
+              <div class="text-one">sthefanyfurt@gmail.com</div>
+            </div>
+            <div class="email details">
+                <div class="topic">Discord</div>
+                <div class="text-one">sthefanyf#8968</div>
+              </div>
+              <div class="email details">
+                <div class="topic">GitHub</div>
+                <div class="text-one">insert</div>
+              </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Envie sua mensagem</div>
+
+            <form method="post" action="https://formspree.io/f/xleznyvr" >
+            <fieldset>
+                <input type="hidden" name="_subject" value="Novo contato!" />
+                <input type="hidden" name="_next" value="Mensagem-enviada!" />
+                <input type="hidden" name="_language" value="pt" />
+              <div class="input-box">
+                <input class="topic" type="text" placeholder="Digite seu nome" name="nome"/>
+              </div>
+              <div class="input-box">
+                <input class="topic" type="text" placeholder="Digite seu email" name="email" />
+              </div>
+              <div class="input-box message-box">
+                <textarea class="topic" placeholder="Digite sua mensagem" name="mensagem"></textarea>
+              </div>
+              <div class="button">
+                <button type="submit" class="button">Enviar</button>
+              </div>
+            </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>   
+  </main>
+</div>
+ <footer class="rodape">
+ <h5 class="rodape-titulo" href:"https://www.linkedin.com/in/sthefany-pereira/">LinkedIn</h5>
+          <h5 class="rodape-titulo">WhatsApp</h5>
+          <h5 class="rodape-titulo">Discord</h5>
+          <h5 class="rodape-titulo">GitHub</h5>
+
+</footer>
+</body>
+</html>
